@@ -18,6 +18,7 @@ pipeline {
     environment {
         TESTING_FARM_API_KEY = credentials('testing-farm-api-key')
         FEDORA_CI_TESTING_FARM_API_URL = "https://api.dev.testing-farm.io"
+        FEDORA_CI_TESTING_FARM_ARTIFACTS_URL = "http://artifacts.dev.testing-farm.io"
     }
 
     stages {
